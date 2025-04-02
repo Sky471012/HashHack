@@ -69,4 +69,27 @@
   .text-gradient {
     @apply bg-gradient-to-r from-dusk-300 via-dusk-500 to-indigo-400 bg-clip-text text-transparent;
   }
+  
+  .glow-effect {
+    @apply relative;
+  }
+  
+  .glow-effect::before {
+    content: '';
+    @apply absolute -inset-1 rounded-lg bg-gradient-to-br from-dusk-500 to-indigo-600 opacity-30 blur pointer-events-none;
+  }
+  
+  .animate-glow {
+    animation: glow 3s ease-in-out infinite alternate;
+  }
+  
+  @keyframes glow {
+    0% {
+      filter: brightness(1) saturate(1);
+    }
+    100% {
+      filter: brightness(1.2) saturate(1.5);
+    }
+  }
 }
+
