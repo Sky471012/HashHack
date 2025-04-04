@@ -7,7 +7,7 @@ export function HeroSection() {
   const [email, setEmail] = useState("");
 
   return (
-    <section className="relative pt-32 pb-20 overflow-hidden">
+    <section id="home" className="relative pt-32 pb-20 overflow-hidden">
       <div className="absolute inset-0 h-full w-full bg-[radial-gradient(circle,rgba(115,115,115,0.3)_1px,transparent_1px)] bg-[size:20px_20px]"></div>
 
 
@@ -27,7 +27,17 @@ export function HeroSection() {
           </div>
           
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6 leading-tight">
-          <span className="text-[rgba(255, 255, 255, 0.86)]-500 font-[poppins] ">SafeBrowse KidShield</span><br />
+          <span
+            className="font-[poppins] text-transparent bg-clip-text"
+            style={{
+              backgroundImage:
+                'repeating-radial-gradient(circle farthest-side at center center, #FFFFFF 0%, #C4C4C4 100%)',
+              WebkitBackgroundClip: 'text',
+              WebkitTextFillColor: 'transparent',
+            }}
+          >
+            NetDaddy<br/>
+          </span>
             <span className="text-gradient font-[inte] italic">Ensuring a safe internet for your child</span>            
           </h1>
           

@@ -18,9 +18,9 @@ function App() {
       <main>
         <HeroSection />
         <FeaturesSection />
-        <TestimonialsSection />
+        {/* <TestimonialsSection />
         <PricingSection />
-        <CtaSection />
+        <CtaSection /> */}
       </main>
       <Footer />
     </div>

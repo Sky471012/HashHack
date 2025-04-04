@@ -35,8 +35,11 @@ export function Dashboard() {
   ];
 
   return (
-    <section id="features" className="py-24 relative">
+    <section id="working" className="py-24 relative">
+
+
       <div className="mt-16 relative">
+      
       <div className="absolute inset-0 h-full w-full bg-[radial-gradient(circle,rgba(115,115,115,0.3)_1px,transparent_1px)] bg-[size:20px_20px]"></div>
         <div className="border-4 border-white/30 w-full bg-[#141414] rounded-lg overflow-hidden">
         

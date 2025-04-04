@@ -26,7 +26,7 @@ export function Navbar() {
   return (
     <header
       className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
-        scrolled ? "py-3 bg-black/80 backdrop-blur-lg border-b border-white/10" : "py-5"
+        scrolled ? "py-3 backdrop-blur border-b border-white/10" : "py-5"
       }`}
     >
       <div className="container max-w-6xl mx-auto px-4 flex items-center justify-between">
@@ -34,24 +34,20 @@ export function Navbar() {
         {/* Logo */}
         <div className="flex items-center gap-2">
           <div className="h-8 w-8 rounded-md bg-gradient-to-br from-dusk-500 to-indigo-600 flex items-center justify-center">
-            <span className="font-bold text-white">D</span>
+            <span className="font-bold text-white">nD</span>
           </div>
-          <span className="font-bold text-white text-xl">Duskflow</span>
+          <span className="font-bold text-white text-xl">NetDaddy</span>
         </div>
 
         {/* Desktop Navigation */}
         <nav className="hidden md:flex items-center gap-8">
-          <a href="#testimonials" className="text-sm text-white/80 hover:text-white transition-colors">Testimonials</a>
-          <a href="#features" className="text-sm text-white/80 hover:text-white transition-colors">Features</a>
-          <a href="#pricing" className="text-sm text-white/80 hover:text-white transition-colors">Pricing</a>
+          <a href="#home" className="inline-flex items-center py-1 px-3 rounded-full bg-white/5 border border-white/10 backdrop-blur-sm text-sm text-white/80 hover:text-white transition-colors">Home</a>
+          <a href="#working" className="inline-flex items-center py-1 px-3 rounded-full bg-white/5 border border-white/10 backdrop-blur-sm text-sm text-white/80 hover:text-white transition-colors">How it works</a>
+          <a href="#features" className="inline-flex items-center py-1 px-3 rounded-full bg-white/5 border border-white/10 backdrop-blur-sm text-sm text-white/80 hover:text-white transition-colors">Features</a>
+          <a href="#contact" className="inline-flex items-center py-1 px-3 rounded-full bg-white/5 border border-white/10 backdrop-blur-sm text-sm text-white/80 hover:text-white transition-colors">Contact Us</a>
         </nav>
 
-        {/* Sign-in Button (Visible on Desktop) */}
-        <div className="hidden md:flex items-center gap-3">
-          <Button className="whitespace-nowrap bg-gradient-to-t from-[#5636f7] to-[#9781e3] hover:bg-gradient-to-b hover:opacity-90 border-none px-6 py-2 shadow-lg shadow-[#843dff]/25 transition-all duration-300">
-            Sign in
-          </Button>
-        </div>
+        
 
         {/* Mobile Menu Button */}
         <button
