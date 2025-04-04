@@ -41,10 +41,10 @@ export function Navbar() {
 
         {/* Desktop Navigation */}
         <nav className="hidden md:flex items-center gap-8">
-          <a href="#home" className="inline-flex items-center py-1 px-3 rounded-full bg-white/5 border border-white/10 backdrop-blur-sm text-sm text-white/80 hover:text-white transition-colors">Home</a>
-          <a href="#working" className="inline-flex items-center py-1 px-3 rounded-full bg-white/5 border border-white/10 backdrop-blur-sm text-sm text-white/80 hover:text-white transition-colors">How it works</a>
-          <a href="#features" className="inline-flex items-center py-1 px-3 rounded-full bg-white/5 border border-white/10 backdrop-blur-sm text-sm text-white/80 hover:text-white transition-colors">Features</a>
-          <a href="#contact" className="inline-flex items-center py-1 px-3 rounded-full bg-white/5 border border-white/10 backdrop-blur-sm text-sm text-white/80 hover:text-white transition-colors">Contact Us</a>
+          <a href="#home" className="inline-flex items-center py-1 px-3 rounded-full bg-white/5 border border-white/10 backdrop-blur-sm text-sm text-white/80 hover:text-white transition-colors shadow-[0_0_10px_rgba(168,85,247,0.7)] hover:shadow-[0_0_15px_rgba(168,85,247,0.8)]">Home</a>
+          <a href="#working" className="inline-flex items-center py-1 px-3 rounded-full bg-white/5 border border-white/10 backdrop-blur-sm text-sm text-white/80 hover:text-white transition-colors shadow-[0_0_10px_rgba(168,85,247,0.7)] hover:shadow-[0_0_15px_rgba(168,85,247,0.8)]">How it works</a>
+          <a href="#features" className="inline-flex items-center py-1 px-3 rounded-full bg-white/5 border border-white/10 backdrop-blur-sm text-sm text-white/80 hover:text-white transition-colors shadow-[0_0_10px_rgba(168,85,247,0.7)] hover:shadow-[0_0_15px_rgba(168,85,247,0.8)]">Features</a>
+          <a href="#contact" className="inline-flex items-center py-1 px-3 rounded-full bg-white/5 border border-white/10 backdrop-blur-sm text-sm text-white/80 hover:text-white transition-colors shadow-[0_0_10px_rgba(168,85,247,0.7)] hover:shadow-[0_0_15px_rgba(168,85,247,0.8)]">Contact Us</a>
         </nav>
 
         
@@ -72,9 +72,10 @@ export function Navbar() {
           </button>
 
           {/* Menu Items */}
-          <a href="#testimonials" className="text-lg text-white hover:text-indigo-400 transition-colors" onClick={() => setMenuOpen(false)}>Testimonials</a>
+          <a href="#home" className="text-lg text-white hover:text-indigo-400 transition-colors" onClick={() => setMenuOpen(false)}>Home</a>
+          <a href="#working" className="text-lg text-white hover:text-indigo-400 transition-colors" onClick={() => setMenuOpen(false)}>How it works</a>
           <a href="#features" className="text-lg text-white hover:text-indigo-400 transition-colors" onClick={() => setMenuOpen(false)}>Features</a>
-          <a href="#pricing" className="text-lg text-white hover:text-indigo-400 transition-colors" onClick={() => setMenuOpen(false)}>Pricing</a>
+          <a href="#contact" className="text-lg text-white hover:text-indigo-400 transition-colors" onClick={() => setMenuOpen(false)}>Contact Us</a>
           
           {/* Sign-in Button */}
           <Button
