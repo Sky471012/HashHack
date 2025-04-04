@@ -8,8 +8,8 @@ export function HeroSection() {
 
   return (
     <section className="relative pt-32 pb-20 overflow-hidden">
+      <div className="absolute inset-0 h-full w-full bg-[radial-gradient(circle,rgba(115,115,115,0.3)_1px,transparent_1px)] bg-[size:20px_20px]"></div>
 
-<div className="absolute inset-0 h-full w-full bg-[radial-gradient(circle,rgba(115,115,115,0.3)_1px,transparent_1px)] bg-[size:20px_20px]"></div>
 
       {/* Enhanced background glow effects */}
       <div className="absolute inset-0 bg-hero-glow opacity-80 z-0"></div>
@@ -45,8 +45,10 @@ export function HeroSection() {
         
         </div>
         
-        {/* Dashboard with enhanced glow */}
-        <div><Dashboard></Dashboard></div>
+        {/* Dashboard */}
+        <div>        
+          <Dashboard></Dashboard>
+        </div>
         
       </div>
     </section>
