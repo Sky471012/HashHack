@@ -21,12 +21,10 @@ export function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-10">
           {/* Logo and description */}
           <div className="lg:col-span-2">
-            <div className="flex items-center gap-2 mb-4">
-              <div className="h-8 w-8 rounded-md bg-gradient-to-br from-dusk-500 to-indigo-600 flex items-center justify-center">
-                <span className="font-bold text-white">nD</span>
-              </div>
-              <span className="font-bold text-white text-xl">NetDaddy</span>
-            </div>
+          <div className="flex items-center gap-2">
+          <img src="/logo.png" alt="NetDaddy Logo" className="h-8 w-8 rounded-md object-contain" />
+          <span className="font-bold text-white text-xl">NetDaddy</span>
+        </div>
             <p className="text-white/60 mb-6">Ensuring a safe internet for your child.</p>
           </div>
 

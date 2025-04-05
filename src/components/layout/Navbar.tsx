@@ -33,11 +33,10 @@ export function Navbar() {
         
         {/* Logo */}
         <div className="flex items-center gap-2">
-          <div className="h-8 w-8 rounded-md bg-gradient-to-br from-dusk-500 to-indigo-600 flex items-center justify-center">
-            <span className="font-bold text-white">nD</span>
-          </div>
+          <img src="/logo.png" alt="NetDaddy Logo" className="h-8 w-8 rounded-md object-contain" />
           <span className="font-bold text-white text-xl">NetDaddy</span>
         </div>
+
 
         {/* Desktop Navigation */}
         <nav className="hidden md:flex items-center gap-8">
