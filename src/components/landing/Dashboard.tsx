@@ -7,23 +7,23 @@ export function Dashboard() {
     {
       title: "Smart Screenshot & AI Detection",
       description:
-        "While you browse, the extension quietly takes screenshots—every 15 seconds, when you switch tabs, or scroll to the end of a page. Each image is instantly checked by AI (Gemini) to detect any inappropriate or harmful content. This happens in real-time without interrupting your experience.",
+        "While you browse, the extension quietly takes screenshots—every 3 seconds, when you switch tabs, or scroll. Each image is instantly checked by AI (Gemini) to detect any inappropriate or harmful content. This happens in real-time without interrupting your experience.",
       image:
-        "https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?auto=format&fit=crop&q=80&w=1200&h=800",
+        "/working-images/step1.jpeg",
     },
     {
       title: "Auto-Block Harmful Screens",
       description:
         "If anything inappropriate is detected, your screen is immediately blocked or blurred to protect you from seeing it. You’re shielded from harmful visuals without needing to take action yourself.",
       image:
-        "https://images.unsplash.com/photo-1461749280684-dccba630e2f6?auto=format&fit=crop&q=80&w=1200&h=800",
+        "/working-images/step2.jpeg",
     },
     {
       title: "Alert Trusted Contacts",
       description:
         "As soon as harmful content is detected, a WhatsApp message and an email are automatically sent to your parent or guardian, ensuring someone you trust is informed and ready to support you.",
       image:
-        "https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?auto=format&fit=crop&q=80&w=1200&h=800",
+        "/working-images/step3.png",
     },
   ];
 
@@ -92,16 +92,6 @@ export function Dashboard() {
                             {step.description}
                           </p>
 
-                          
-
-                          <div className="pl-14 pt-4 opacity-0 transform translate-y-4 group-hover:opacity-100 group-hover:translate-y-0 transition-all duration-500">
-                            <Button
-                              size="sm"
-                              className="bg-dusk-500/20 text-dusk-300 hover:bg-dusk-500/40 border border-dusk-400/20"
-                            >
-                              Learn more
-                            </Button>
-                          </div>
                         </div>
                       </div>
                     ))}

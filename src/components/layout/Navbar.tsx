@@ -33,17 +33,17 @@ export function Navbar() {
         
         {/* Logo */}
         <div className="flex items-center gap-2">
-          <img src="/logo.png" alt="NetDaddy Logo" className="h-8 w-8 rounded-md object-contain" />
+          <img src="/logo.png" alt="NetDaddy Logo" className="h-10 w-10 rounded-md object-contain" />
           <span className="font-bold text-white text-xl">NetDaddy</span>
         </div>
 
 
         {/* Desktop Navigation */}
         <nav className="hidden md:flex items-center gap-8">
-          <a href="#home" className="inline-flex items-center py-1 px-3 rounded-full bg-white/5 border border-white/10 backdrop-blur-sm text-sm text-white/80 hover:text-white transition-colors shadow-[0_0_10px_rgba(168,85,247,0.7)] hover:shadow-[0_0_15px_rgba(168,85,247,0.8)]">Home</a>
-          <a href="#working" className="inline-flex items-center py-1 px-3 rounded-full bg-white/5 border border-white/10 backdrop-blur-sm text-sm text-white/80 hover:text-white transition-colors shadow-[0_0_10px_rgba(168,85,247,0.7)] hover:shadow-[0_0_15px_rgba(168,85,247,0.8)]">How it works</a>
-          <a href="#features" className="inline-flex items-center py-1 px-3 rounded-full bg-white/5 border border-white/10 backdrop-blur-sm text-sm text-white/80 hover:text-white transition-colors shadow-[0_0_10px_rgba(168,85,247,0.7)] hover:shadow-[0_0_15px_rgba(168,85,247,0.8)]">Features</a>
-          <a href="#contact" className="inline-flex items-center py-1 px-3 rounded-full bg-white/5 border border-white/10 backdrop-blur-sm text-sm text-white/80 hover:text-white transition-colors shadow-[0_0_10px_rgba(168,85,247,0.7)] hover:shadow-[0_0_15px_rgba(168,85,247,0.8)]">Contact Us</a>
+          <a href="#home" className="inline-flex items-center py-1 px-3 rounded-full bg-white/5 border border-white/10 backdrop-blur-sm text-sm text-white/80 hover:text-white transition-colors shadow-[0_0_10px_#843dff] hover:shadow-[0_0_15px_#843dff]">Home</a>
+          <a href="#working" className="inline-flex items-center py-1 px-3 rounded-full bg-white/5 border border-white/10 backdrop-blur-sm text-sm text-white/80 hover:text-white transition-colors shadow-[0_0_10px_#843dff] hover:shadow-[0_0_15px_#843dff]">How it works</a>
+          <a href="#features" className="inline-flex items-center py-1 px-3 rounded-full bg-white/5 border border-white/10 backdrop-blur-sm text-sm text-white/80 hover:text-white transition-colors shadow-[0_0_10px_#843dff] hover:shadow-[0_0_15px_#843dff]">Features</a>
+          <a href="#contact" className="inline-flex items-center py-1 px-3 rounded-full bg-white/5 border border-white/10 backdrop-blur-sm text-sm text-white/80 hover:text-white transition-colors shadow-[0_0_10px_#843dff] hover:shadow-[0_0_15px_#843dff]">Contact Us</a>
         </nav>
 
         
