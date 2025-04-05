@@ -5,32 +5,25 @@ export function Dashboard() {
   // How it Works steps data
   const steps = [
     {
-      title: "Connect Your Data Sources",
+      title: "Smart Screenshot & AI Detection",
       description:
-        "Easily integrate with your existing tools and platforms. Import data from multiple sources with just a few clicks.",
+        "While you browse, the extension quietly takes screenshots—every 15 seconds, when you switch tabs, or scroll to the end of a page. Each image is instantly checked by AI (Gemini) to detect any inappropriate or harmful content. This happens in real-time without interrupting your experience.",
       image:
         "https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?auto=format&fit=crop&q=80&w=1200&h=800",
     },
     {
-      title: "Configure AI Analysis",
+      title: "Auto-Block Harmful Screens",
       description:
-        "Set up intelligent workflows that automatically process your data. Our AI identifies patterns and insights without manual intervention.",
+        "If anything inappropriate is detected, your screen is immediately blocked or blurred to protect you from seeing it. You’re shielded from harmful visuals without needing to take action yourself.",
       image:
         "https://images.unsplash.com/photo-1461749280684-dccba630e2f6?auto=format&fit=crop&q=80&w=1200&h=800",
     },
     {
-      title: "Visualize Results",
+      title: "Alert Trusted Contacts",
       description:
-        "View comprehensive analytics through customizable dashboards. Make data-driven decisions with real-time insights.",
+        "As soon as harmful content is detected, a WhatsApp message and an email are automatically sent to your parent or guardian, ensuring someone you trust is informed and ready to support you.",
       image:
         "https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?auto=format&fit=crop&q=80&w=1200&h=800",
-    },
-    {
-      title: "Automate Actions",
-      description:
-        "Set up triggers for automated responses based on data thresholds. Let the system handle routine tasks while you focus on strategy.",
-      image:
-        "https://images.unsplash.com/photo-1531297484001-80022131f5a1?auto=format&fit=crop&q=80&w=1200&h=800",
     },
   ];
 
@@ -99,38 +92,7 @@ export function Dashboard() {
                             {step.description}
                           </p>
 
-                          <div className="pl-14 pt-4">
-                            <ul className="space-y-3">
-                              <li className="flex items-start group">
-                                <div className="mt-1.5 mr-3 flex-shrink-0">
-                                  <div className="w-5 h-5 rounded-full bg-dusk-500/20 flex items-center justify-center transition-all duration-300 group-hover:bg-dusk-500/40 group-hover:scale-110">
-                                    <Check
-                                      size={12}
-                                      className="text-dusk-400 group-hover:text-dusk-300"
-                                    />
-                                  </div>
-                                </div>
-                                <span className="text-white/60 transition-colors duration-300 group-hover:text-white/90">
-                                  Seamlessly integrates with your existing
-                                  workflow
-                                </span>
-                              </li>
-                              <li className="flex items-start group">
-                                <div className="mt-1.5 mr-3 flex-shrink-0">
-                                  <div className="w-5 h-5 rounded-full bg-dusk-500/20 flex items-center justify-center transition-all duration-300 group-hover:bg-dusk-500/40 group-hover:scale-110">
-                                    <Check
-                                      size={12}
-                                      className="text-dusk-400 group-hover:text-dusk-300"
-                                    />
-                                  </div>
-                                </div>
-                                <span className="text-white/60 transition-colors duration-300 group-hover:text-white/90">
-                                  Intuitive setup process requires no technical
-                                  expertise
-                                </span>
-                              </li>
-                            </ul>
-                          </div>
+                          
 
                           <div className="pl-14 pt-4 opacity-0 transform translate-y-4 group-hover:opacity-100 group-hover:translate-y-0 transition-all duration-500">
                             <Button
